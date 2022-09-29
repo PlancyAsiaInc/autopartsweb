@@ -2426,9 +2426,9 @@ fieldset:disabled a.btn {
 
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
-  color: #212529;
-  background-color: gainsboro;
-  border-color: #d5d5d5;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
