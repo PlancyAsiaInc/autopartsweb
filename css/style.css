@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #f8fcff;
   text-align: left;
-  background-color: #cfcfcf;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -6177,10 +6177,18 @@ button.bg-light:focus {
   background-color: #e6e6e6 !important;
 }
 
+.bg-blue {
+  background-color: #007bff !important;
+}
+
+a.bg-blue:hover, a.bg-blue:focus,
+button.bg-blue:hover,
+button.bg-blue:focus {
+  background-color: #f2be00 !important;
+}
 .bg-dark {
   background-color: #000000 !important;
 }
-
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
@@ -9615,17 +9623,19 @@ a.text-dark:hover, a.text-dark:focus {
 .cat-item {
   background: #FFFFFF;
   transition: .5s;
+  border: 1px solid #cccccc;
 }
 
 .cat-item:hover {
-  background: #090b0c;
+  background-color: #f2be00;
+  border: 0;
 }
 
 .cat-item:hover .flex-fill h6{
-  color: #f2be00;
+  color: #ffffff;
 }
 .cat-item:hover small .text-body{
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .cat-item img {
